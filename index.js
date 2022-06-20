@@ -58,19 +58,7 @@ function Maquina()
     if(celdaPorMarcar[4] == "")
     {
         p = 4;
-    }else /*if(celdaPorMarcar[0] == "")
-    {
-        p = 0;
-    }else if(celdaPorMarcar[2] == "")
-    {
-        p = 2;
-    }else if(celdaPorMarcar[6] == "")
-    {
-        p = 6;
-    }else if(celdaPorMarcar[8] == "")
-    {
-        p = 8;
-    }else */
+    }else
     {                  
         let a = aleatorio(0, matriz.length -1);
         while(celdaPorMarcar[a] != "")
